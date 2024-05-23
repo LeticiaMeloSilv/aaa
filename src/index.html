@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <title>Laika</title>
+</head>
+
+<body class="h-full w-full bg-laranja-claro">
+    <header class="bg-laranja-escuro h-32 flex flex-row items-center justify-around">
+        <img class="w-16 h-16" src="./img/logo.png" alt="">
+        <div class="w-3/5 flex justify-center">
+            <input type="search"
+                class="p-2 rounded-full border-2 border-azul-claro bg-lupa bg-no-repeat bg-laranja-claro w-4/5"
+                id="navegar" placeholder="O que seu pet precisa?" />
+        </div>
+        <div class="flex flex-row items-center justify-between w-1/5">
+            <a href="./">Entrar</a>
+            <p> | </p>
+            <a href="./">Cadastrar</a>
+            <img src="./img/usuario.png" alt="">
+        </div>
+    </header>
+    <hr class="border-2 border-azul-escuro">
+    <main class="">
+        <div class="flex flex-row mt-20 justify-around">
+            <div class="ml-10 w-96 flex  justify-center flex-col">
+                <h1 class="text-azul-titulo text-8xl font-OleoScript">Laika</h1>
+                <h3 class="text-2xl">Aqui você encontra de tudo para o seu pet!</h3>
+                <h5 class="text-lg pl-6">Consultas, Produtos, banho e tosa, e muito mais</h5>
+                <div class=" flex items-center justify-center"></div>
+                <a href="./home.html">
+                    <button class="rounded-sm bg-azul-claro p-3">Venha Conferir!</button></a>
+            </div>
+            <div class="flex flex-row w-1/2 gap-4">
+                <img src="./img/cachorroNoFundoLaranja.png" alt="">
+                <img class="mt-10" src="./img/gatoNoFundoAzul.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center flex-col">
+            <div class="flex p-10 items-center gap-10 w-2/3 ml-auto">
+                <img class="h-70" src="./img/cachorroTomandoBanho.png" alt="">
+                <div class="">
+                    <p class="text-xl">Banho</p>
+                    <p>O banho regular ajuda a prevenir doenças de pele, como fungos e parasitas.</p>
+                </div>
+            </div>
+            <div class="flex bg-azul-claro rounded-r-full bg-cover w-2/3 pl-10 items-center justify-evenly gap-10 mr-auto">
+                <div class=" ">
+                    <p class="text-xl">Atendimento veterinário</p>
+                    <p>Levá-lo com a frequência correta ao veterinário para realizar exames é a forma mais certa de
+                        garantir um animal saudável.</p>
+                </div>
+                <img class="h-70 " src="./img/cachorroNoVeterinario.png" alt="">
+            </div>
+            <div class="flex p-10 items-center gap-10 w-2/3 ml-auto">
+                <img class="h-70" src="./img/cachorroTosando.png" alt="">
+                <div class="">
+                    <p class="text-xl">Tosa e Garras</p>
+                    <p>A tosa frequente pode ajudar o pet a se manter ventilado e saudável, se as unhas estiverem muito
+                        grandes, a sustentação e o equilíbrio do pet podem ser prejudicados, o que ocasiona problemas na
+                        coluna</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
