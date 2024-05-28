@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +9,140 @@
 </head>
 
 <body class="h-full w-full bg-laranja-claro">
-    <header class="bg-laranja-escuro h-32 flex flex-row items-center justify-around">
-        <img class="w-16 h-16" src="./img/logo.png" alt="">
-        <div class="w-3/5 flex justify-center">
-            <input type="search"
-                class="p-2 rounded-full border-2 border-azul-claro bg-lupa bg-no-repeat bg-laranja-claro w-4/5"
-                id="navegar" placeholder="O que seu pet precisa?" />
+    <header class="bg-laranja-escuro h-32 fixed w-full gap-5 z-10">
+        <div class=" flex flex-row items-center justify-around p-3">
+            <img class="w-16 h-16" src="./img/logo.png" alt="">
+            <div class="w-3/5 flex justify-center">
+                <input type="search"
+                    class="p-2 rounded-full border-2 border-azul-claro bg-lupa bg-no-repeat bg-laranja-claro w-4/5"
+                    id="navegar" placeholder="O que seu pet precisa?" />
+            </div>
+            <div class="flex flex-row items-center justify-between w-1/5">
+                <a href="./">Entrar</a>
+                <p> | </p>
+                <a href="./">Cadastrar</a>
+                <img src="./img/usuario.png" alt="">
+            </div>
         </div>
-        <div class="flex flex-row items-center justify-between w-1/5">
-            <a href="./">Entrar</a>
-            <p> | </p>
-            <a href="./">Cadastrar</a>
-            <img src="./img/usuario.png" alt="">
-        </div>
+        <nav class="bg-laranja-escuro flex justify-evenly items-center pt-5">
+            <a class="text-azul-escuro" href="./">Agendar serviços</a>
+            <a class="text-azul-escuro" href="./">Veterinario</a>
+            <a class="text-azul-escuro" href="./">Produtos</a>
+        </nav>
+        <hr class="border-2 border-azul-escuro">
     </header>
-    <nav class="bg-laranja-escuro flex justify-evenly items-center ">
-        <a class="text-azul-escuro" href="./">Agendar serviços</a>
-        <a class="text-azul-escuro" href="./">Veterinario</a>
-        <a class="text-azul-escuro" href="./">Produtos</a>
-    </nav>
-    <hr class="border-2 border-azul-escuro">
-<button class="bg-azul-claro">
-    <img src="./img/banho (1) 1.png" alt="">
-    <p>Últimos serviços</p>
-</button>
-<button class="bg-azul-claro">
-    <img src="./img/ecg_heart.png" alt="">
-    <p>Veterinários mais bem avaliados</p>
-</button>
-<button class="bg-azul-claro">
-    <img src="./img/storefront.png" alt="">
-    <p>Produtos populares</p>
-</button>
+    <main class="pt-36">
+
+        <nav class="p-5 flex gap-3 bg-laranja-claro">
+            <button class="bg-azul-claro h-20 flex items-center rounded-2xl w-64 justify-evenly">
+                <img src="./img/banho (1) 1.png" alt="">
+                <p>Últimos serviços</p>
+            </button>
+            <button class="bg-azul-claro flex h-20 items-center rounded-2xl w-64 justify-evenly">
+                <img src="./img/ecg_heart.png" alt="">
+                <p>Veterinários mais bem avaliados</p>
+            </button>
+            <button class="bg-azul-claro h-20 flex items-center rounded-2xl w-64 justify-evenly">
+                <img src="./img/storefront.png" alt="">
+                <p>Produtos populares</p>
+            </button>
+        </nav>
+        <div class="flex items-center justify-center w-screen gap-5">
+            <img class="self-center" src="./img/seta.png" alt="">
+            <div class="bg-branco w-1/2 h-80">
+                <!--cheio de imgs pra um slide -->
+            </div>
+            <img class="rotate-180 self-center" src="./img/seta.png" alt="">
+        </div>
+        <h1 class="text-2xl text-azul-escuro p-5">Produtos mais Populares</h1>
+        <div class=" flex gap-3 relative justify-center items-center">
+            <div class="bg-branco w-48 h-70 rounded-xl flex flex-col items-center p-4">
+                <div class="flex self-start">
+                    <h2 class="">4,5</h2>
+                    <img class="self-start" src="./img/estrela.png" alt="">
+                </div>
+                <img src="./img/produto.png" alt="" class="">
+                <h2>Ração para sabiá 5kg - Nativos</h2>
+                <div class="self-start">
+                    <h2 class="text-azul-escuro font-medium">R$145,99</h2>
+                </div>
+                <button
+                    class="bg-azul-claro border-azul-escuro border-1 rounded-md p-2 text-azul-escuro">Adicionar</button>
+            </div>
+
+
+
+            <div class="bg-branco w-48 h-70 rounded-xl flex flex-col items-center p-4">
+                <div class="flex self-start">
+                    <h2 class="">4,5</h2>
+                    <img class="self-start" src="./img/estrela.png" alt="">
+                </div>
+                <img src="./img/produto.png" alt="" class="">
+                <h2>Ração para sabiá 5kg - Nativos</h2>
+                <div class="self-start">
+                    <h2 class="text-azul-escuro font-medium">R$145,99</h2>
+                </div>
+                <button
+                    class="bg-azul-claro border-azul-escuro border-1 rounded-md p-2 text-azul-escuro">Adicionar</button>
+            </div>
+
+
+
+
+            <div class="bg-branco w-48 h-70 rounded-xl flex flex-col items-center p-4">
+                <div class="flex self-start">
+                    <h2 class="">4,5</h2>
+                    <img class="self-start" src="./img/estrela.png" alt="">
+                </div>
+                <img src="./img/produto.png" alt="" class="">
+                <h2>Ração para sabiá 5kg - Nativos</h2>
+                <div class="self-start">
+                    <h2 class="text-azul-escuro font-medium">R$145,99</h2>
+                </div>
+                <button
+                    class="bg-azul-claro border-azul-escuro border-1 rounded-md p-2 text-azul-escuro">Adicionar</button>
+            </div>
+
+
+            <div class="bg-branco w-48 h-70 rounded-xl flex flex-col items-center p-4">
+                <div class="flex self-start">
+                    <h2 class="">4,5</h2>
+                    <img class="self-start" src="./img/estrela.png" alt="">
+                </div>
+                <img src="./img/produto.png" alt="" class="">
+                <h2>Ração para sabiá 5kg - Nativos</h2>
+                <div class="self-start">
+                    <h2 class="text-azul-escuro font-medium">R$145,99</h2>
+                </div>
+                <button
+                    class="bg-azul-claro border-azul-escuro border-1 rounded-md p-2 text-azul-escuro">Adicionar</button>
+            </div>
+
+            <div class="bg-azul-claro absolute w-full -bottom-5 h-10 -z-10"></div>
+        </div>
+
+
+        <div class="pt-16 w-full">
+            <img class="w-full absolute -z-10 " src="./img/wave.png" alt="">
+            <div class=" top-28">Podemos cuidar do seu Pet para voce!</div>
+            <div class="bg-azul-claro flex items-center justify-center">
+                <div class="bg-branco w-60 flex  items-center justify-center flex-col rounded-xl">
+                    <div class="flex  items-center justify-center">
+                        <h1 class="font-bold text-azul-escuro">Hospedagem</h1>
+                        <img src="./img/travesseiro.png" alt="">
+                    </div>
+                    <h2 class="font-semibold">Para passar uma noite ou mais</h2>
+                    <h4>Vai sair à noite? Você pode deixar seu pet conosco, enquanto damos entreterimento para seu pet
+                        se divertir!</h4>
+                    <button
+                        class="bg-azul-claro border-azul-escuro border-1 rounded-md p-2 text-azul-escuro">Adicionar</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
 </body>
+
 </html>

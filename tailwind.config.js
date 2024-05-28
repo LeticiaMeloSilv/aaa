@@ -14,7 +14,8 @@ module.exports = {
         'laranja-claro':'#FFDD95',
         'azul-escuro':'#2A00A8',
         'azul-claro':'#86A7FC',
-        'azul-titulo':'#496989'
+        'azul-titulo':'#496989',
+        'branco':'#FFFFFF'
       },
       backgroundImage: {
         'logo': "url('./img/search.png')",
